@@ -19,7 +19,7 @@
                     <th>Rows id</th>
                     <th>Date</th>
                     <th>Time</th>
-                    <!-- <th>#</th>
+                    <th>#</th>
                     <th>Track</th>
                     <th>Distance</th>
                     <th>Type</th>
@@ -237,7 +237,7 @@
                     <th>Lay FAV11c Tip</th>
                     <th>Lay FAV12c Tip</th>
                     <th>Lay FAV13c Tip</th>
-                    <th>Lay FAV14c Tip</th> -->
+                    <th>Lay FAV14c Tip</th>
                 </tr>
             </thead>
         <?php
@@ -269,7 +269,10 @@
             $('#tblUser').DataTable( {
                 "processing": true,
                 "serverSide": true,
-                "ajax": "server_processing.php"
+                "ajax": {
+                    url: "server_processing_post.php",
+                    type: 'POST'
+                }
             } );
         } );
         </script>
