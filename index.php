@@ -2,17 +2,10 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.css" />
-
     </head>
 
     <body>
         <h2 class="pull-left">Users List</h2>
-        <?php
-            include_once 'db.php';
-            $result = mysqli_query($conn,"SELECT * FROM DatabaseHorsesUK2021");
-        
-            if (mysqli_num_rows($result) > 0) {
-        ?>
         <table id="tblUser">
             <thead>
                 <tr>
@@ -240,27 +233,7 @@
                     <th>Lay FAV14c Tip</th>
                 </tr>
             </thead>
-        <?php
-            // while($row = mysqli_fetch_array($result)) {      
-        ?>
-        <tr>
-            <?php //echo $i; ?>
-            <!-- <td><?php echo $row["rows_id"]; ?></td> -->
-            <!-- <td><?php echo $row["date_race"]; ?></td> -->
-            <!-- <td><?php echo $row["time_race"]; ?></td> -->
-        </tr>
-        <?php
-            // $i++;
-        }
-        ?>
         </table>
-
-        <?php
-            // }
-            // else{
-            // echo "No result found";
-            // }
-        ?>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.js"></script>
@@ -270,7 +243,7 @@
                 "processing": true,
                 "serverSide": true,
                 "ajax": {
-                    url: "server_processing_post.php",
+                    url: "server_processing_filter.php",
                     type: 'POST'
                 }
             } );
@@ -278,5 +251,3 @@
         </script>
     </body>
 </html>
-
-<!-- https://artisansweb.net/how-to-use-datatable-in-php/ -->
