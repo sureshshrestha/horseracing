@@ -180,7 +180,7 @@
                         </div>
                       </div>
                     </div>
-                    <table id="favTable" class="table table-bordered table-striped ddtf-processed" style="display: block;overflow-x: auto;white-space: nowrap;">
+                    <table id="favTable">
                       <thead>
                         <tr>
                           <th>Rows ID</th>
@@ -668,7 +668,7 @@
 
 
 
-      <div class="row">
+      <!-- <div class="row">
         <form action="https://sporttradingblog.com/databasehorseuk/PagesData/Update" class="form-horizontal" method="post" accept-charset="utf-8">
           <div class="modal modal-success fade" id="divEditRace">
             <div class="modal-dialog">
@@ -1205,7 +1205,7 @@
 
           </section>
         </form>
-      </div>
+      </div> -->
 
 
     </div>
@@ -1255,7 +1255,7 @@
   <script src="./reference Data Horses_files/ckeditor.js"></script>
 
   <script src="./reference Data Horses_files/bootstrap3-wysihtml5.all.min.js"></script>
-  <script>
+  <!-- <script>
     function sortTable(n) {
       var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
       table = document.getElementById("favTable");
@@ -1322,7 +1322,7 @@
 
       }
     }
-  </script>
+  </script> -->
   <script type="text/javascript">
     (function($) {
 
@@ -1343,14 +1343,14 @@
             var values = [];
             var opts = [];
             selectbox.append('<option value="--all--">' + $(this).text() + '</option>');
-            if ((index == null) || (index == 35) || (index == 36) || (index == 37)) {
-              return;
-            }
+            // if ((index == null) || (index == 35) || (index == 36) || (index == 37)) {
+            // return;
+            // }
             var col = $('tr:not(.skip-filter) td:nth-child(' + (index + 2) + ')', table).each(function() {
               var cellVal = options.valueCallback.apply(this);
-              /*if(cellVal.length == 0) {
+              if (cellVal.length == 0) {
                 cellVal = '--empty--';
-              }*/
+              }
               $(this).attr('ddtf-value', cellVal);
 
               if ($.inArray(cellVal, values) === -1) {
@@ -1485,9 +1485,9 @@
 
     })(jQuery);
 
-    $('table').ddTableFilter()
+    $('#favTable').ddTableFilter()
   </script>
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     //on edit
     $(document).ready(function() {
 
@@ -2355,7 +2355,7 @@
       })
 
     })
-  </script>
+  </script> -->
 
   <div style="position: static !important;"></div>
 </body>
