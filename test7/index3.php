@@ -136,7 +136,7 @@
           <form action="http://localhost/projecthorse/test7/index3.php" class="form-horizontal" method="post" accept-charset="utf-8">
             <section class="col-lg-12 connectedSortable ui-sortable">
               <div class="box">
-                <div class="box-body">
+                <div class="box-body" style="overflow-x: auto">
                   <div class="box-header ui-sortable-handle">
                     <h3 class="box-title">List of Horse Races</h3>
                   </div>
