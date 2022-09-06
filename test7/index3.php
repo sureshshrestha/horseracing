@@ -72,32 +72,31 @@
   <div class="wrapper" style="height: auto; min-height: 100%;">
     <header class="main-header">
 
-      <a href="https://sporttradingblog.com/databasehorseuk/ViewRaces#" class="logo" style="background-color: #11404f;">
+      <a href="http://localhost/projecthorse/test7/index3.php" class="logo" style="background-color: #A9A9A9;">
 
-        <span class="logo-mini"><b>L</b>C</span>
+        <span class="logo-mini"><b>H</b>R</span>
 
-        <span class="logo-lg"><b>Data</b>Horses</span>
+        <span class="logo-lg"><b>Horse Races Data</b></span>
       </a>
 
-      <nav class="navbar navbar-static-top" style="background-color: #11404f;">
+      <nav class="navbar navbar-static-top" style="background-color: #062F4F;">
 
-        <a href="https://sporttradingblog.com/databasehorseuk/ViewRaces#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <a href="http://localhost/projecthorse/test7/index3.php" class="sidebar-toggle" data-toggle="push-menu" role="button">
           <span class="sr-only">Toggle navigation</span>
         </a>
         <div class="navbar-custom-menu">
           <ul class="nav navbar-nav">
 
             <li class="dropdown user user-menu">
-              <a href="https://sporttradingblog.com/databasehorseuk/ViewRaces#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="./reference Data Horses_files/user2-160x160.jpg" class="user-image" alt="User Image">
-                <span class="hidden-xs">admin</span>
+              <a href="http://localhost/projecthorse/test7/index3.php" class="dropdown-toggle" data-toggle="dropdown">
+                <img src="./reference Data Horses_files/user.png" class="user-image" alt="User Image">
+                <span class="hidden-xs">User</span>
               </a>
               <ul class="dropdown-menu">
 
                 <li class="user-header">
-                  <img src="./reference Data Horses_files/user2-160x160.jpg" class="img-circle" alt="User Image">
-                  <p>
-                    admin </p>
+                  <img src="./reference Data Horses_files/user.png" class="img-circle" alt="User Image">
+                  <p>User</p>
                 </li>
 
                 <li class="user-footer">
@@ -105,7 +104,7 @@
 
                   </div>
                   <div class="pull-right">
-                    <a href="https://sporttradingblog.com/databasehorseuk/login/logout" class="btn btn-default btn-flat">Sign out</a>
+                    <a href="#" class="btn btn-default btn-flat">Sign out</a>
                   </div>
                 </li>
               </ul>
@@ -116,20 +115,13 @@
       </nav>
     </header>
 
-    <aside class="main-sidebar" style="background-color: #0b4809;">
+    <aside class="main-sidebar" style="background-color: #565656;">
 
       <section class="sidebar" style="height: auto;">
 
         <ul class="sidebar-menu tree" data-widget="tree">
-          <li class="header">MAIN NAVIGATION</li>
-          <li><a href="https://sporttradingblog.com/databasehorseuk/dashboard"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
-          <li><a href="https://sporttradingblog.com/databasehorseuk/Horses"><i class="fa fa-cogs"></i> <span>Manage Horses</span></a></li>
-          <li><a href="https://sporttradingblog.com/databasehorseuk/Trainers"><i class="fa fa-cogs"></i> <span>Manage Trainers</span></a></li>
-          <li><a href="https://sporttradingblog.com/databasehorseuk/Jocky"><i class="fa fa-cogs"></i> <span>Manage Jocky</span></a></li>
-
-          <li><a href="https://sporttradingblog.com/databasehorseuk/ViewRaces"><i class="fa fa-signal"></i> <span>View Races</span></a></li>
-          <li><a href="https://sporttradingblog.com/databasehorseuk/register"><i class="fa fa-lock"></i> <span>Manage Users</span></a></li>
-          <li><a href="https://sporttradingblog.com/databasehorseuk/Login/logout"><i class="fa fa-cogs"></i> <span>Logout</span></a></li>
+          <li class="header">PAGES</li>
+          <li><a href="http://localhost/projecthorse/test7/index3.php"><i class="fa fa-signal"></i> <span>List of Races</span></a></li>
         </ul>
       </section>
 
@@ -141,16 +133,16 @@
 
 
         <div class="row">
-          <form action="https://sporttradingblog.com/databasehorseuk/PagesData/getSingleRaceView" class="form-horizontal" method="post" accept-charset="utf-8">
+          <form action="http://localhost/projecthorse/test7/index3.php" class="form-horizontal" method="post" accept-charset="utf-8">
             <section class="col-lg-12 connectedSortable ui-sortable">
               <div class="box">
                 <div class="box-body">
-                  <div class="box-header ui-sortable-handle" style="background: rgb(87, 142, 190); color: rgb(255, 255, 255); cursor: move;">
-                    <h3 class="box-title">Horse Races</h3>
+                  <div class="box-header ui-sortable-handle">
+                    <h3 class="box-title">List of Horse Races</h3>
                   </div>
 
                   <div class="box-body">
-                    <div class="col-md-12 col-xs-12">
+                    <!-- <div class="col-md-12 col-xs-12">
                       <div class="col-md-2 col-xs-12" style="padding-left: 1px;width: 11.66666667%;">
                         <div class="form-group">
                           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-success">
@@ -179,7 +171,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <table id="favTable">
                       <thead>
                         <tr>
@@ -668,544 +660,544 @@
 
 
 
-      <!-- <div class="row">
-        <form action="https://sporttradingblog.com/databasehorseuk/PagesData/Update" class="form-horizontal" method="post" accept-charset="utf-8">
-          <div class="modal modal-success fade" id="divEditRace">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span></button>
-                  <h4 class="modal-title">Edit Race Details</h4>
-                </div>
-                <div class="modal-body">
-                  <div class="col-md-12 col-xs-12">
-                    <div class="col-md-12 col-xs-12" style="padding-left: 1px;visibility: hidden;height: 0px;">
-                      <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                        <div class="form-group">
-                          <label for="txtHorse_nameEdit">ID:</label>
-                          <input type="text" hidden="true" readonly="true" id="txtRecId" name="txtRecId" class="form-control" required="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="dt_date">Date:</label>
-                        <input type="text" name="dt_dateE" value="" placeholder="Date" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="dt_dateE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="dt_time">Time:</label>
-                        <input type="text" name="dt_timeE" value="" placeholder="Time" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="dt_timeE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="tag_no">#:</label>
-                        <input type="text" name="tag_noE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tag_noE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="fname">Track:</label>
-                        <input type="text" name="trackE" value="" placeholder="Track" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="trackE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="distance">Distance:</label>
-                        <input type="text" name="distanceE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="distanceE">
+      <!-- <div class=" row">
+                      <form action="https://sporttradingblog.com/databasehorseuk/PagesData/Update" class="form-horizontal" method="post" accept-charset="utf-8">
+                        <div class="modal modal-success fade" id="divEditRace">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title">Edit Race Details</h4>
+                              </div>
+                              <div class="modal-body">
+                                <div class="col-md-12 col-xs-12">
+                                  <div class="col-md-12 col-xs-12" style="padding-left: 1px;visibility: hidden;height: 0px;">
+                                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                      <div class="form-group">
+                                        <label for="txtHorse_nameEdit">ID:</label>
+                                        <input type="text" hidden="true" readonly="true" id="txtRecId" name="txtRecId" class="form-control" required="">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="dt_date">Date:</label>
+                                      <input type="text" name="dt_dateE" value="" placeholder="Date" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="dt_dateE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="dt_time">Time:</label>
+                                      <input type="text" name="dt_timeE" value="" placeholder="Time" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="dt_timeE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="tag_no">#:</label>
+                                      <input type="text" name="tag_noE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tag_noE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="fname">Track:</label>
+                                      <input type="text" name="trackE" value="" placeholder="Track" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="trackE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="distance">Distance:</label>
+                                      <input type="text" name="distanceE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="distanceE">
 
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="txtType">Type:</label>
-                        <input type="text" name="typeE" value="" placeholder="Type" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="typeE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="code">Code:</label>
-                        <input type="text" name="codeE" value="" placeholder="Code" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="codeE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="horse_id">Horse Name:</label>
-                        <select style="width: 90%; border-radius: 4px;" name="horse_idE" id="horse_idE" class="form-control select2">
-                          <option value="1">Zubedi</option>
-                          <option value="3">Mozeri</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="bname">Jockey:</label>
-                        <select style="width: 90%; border-radius: 4px;" name="jockey_idE" id="jockey_idE" class="form-control select2">
-                          <option value="1">peter1</option>
-                          <option value="2">Test jockey</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="trainer_id">Trainer:</label>
-                        <select style="width: 90%; border-radius: 4px;" name="trainer_idE" id="trainer_idE" class="form-control select2">
-                          <option value="1">Mr. Jame</option>
-                          <option value="3">Peter</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="fav_order">Fav Order:</label>
-                        <input type="text" name="fav_orderE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav_orderE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="position">Position:</label>
-                        <input type="number" name="positionE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="positionE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="tips">Tips:</label>
-                        <input type="text" name="tipsE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tipsE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="tips_rating">Tips Rating:</label>
-                        <input type="text" name="tips_ratingE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tips_ratingE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="high">High:</label>
-                        <input type="text" name="highE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="highE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="low">Low:</label>
-                        <input type="text" name="lowE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="lowE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="bsp">BSP:</label>
-                        <input type="text" name="bspE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="bspE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="bpsp">BPSP:</label>
-                        <input type="text" name="bpspE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="bpspE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="winner_high">Winner High:</label>
-                        <input type="text" name="winner_highE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="winner_highE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="winner_sp">Winner SP:</label>
-                        <input type="text" name="winner_spE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="winner_spE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="runner">Runner:</label>
-                        <input type="text" name="runnerE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="runnerE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="placed">Placed:</label>
-                        <input type="text" name="placedE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="placedE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="horse_place">Horse Place:</label>
-                        <input type="text" name="horse_placeE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="horse_placeE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="b2l">B2L:</label>
-                        <input type="text" name="b2lE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="b2lE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="sel_row_fav">Sel Row Fav:</label>
-                        <input type="text" name="sel_row_favE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="sel_row_favE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="fav1_tips">FAV1 TIPS:</label>
-                        <input type="text" name="fav1_tipsE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav1_tipsE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="com1">Com1:</label>
-                        <input type="text" name="com1E" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com1E">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="fav1_tip1c">FAV1 TIP1c:</label>
-                        <input type="text" name="fav1_tip1cE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav1_tip1cE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="fav2_tip">FAV2 Tip:</label>
-                        <input type="text" name="fav2_tipE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav2_tipE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="com2">Com2:</label>
-                        <input type="text" name="com2E" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com2E">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="fav2_tipc">FAV2 Tipc:</label>
-                        <input type="text" name="fav2_tipcE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav2_tipcE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="fav3_tip">FAV3 TIP:</label>
-                        <input type="text" name="fav3_tipE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav3_tipE">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="com3">Com3:</label>
-                        <input type="text" name="com3E" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com3E">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group">
-                        <label for="fav3_tipc">FAV3 TIPc:</label>
-                        <input type="text" name="fav3_tipcE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav3_tipcE">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-outline pull-right" data-dismiss="modal">Close</button>
-                  <input type="submit" name="Submit" value="Submit" id="Submit" class="btn btn-outline  pull-left">
-                </div>
-              </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="txtType">Type:</label>
+                                      <input type="text" name="typeE" value="" placeholder="Type" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="typeE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="code">Code:</label>
+                                      <input type="text" name="codeE" value="" placeholder="Code" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="codeE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="horse_id">Horse Name:</label>
+                                      <select style="width: 90%; border-radius: 4px;" name="horse_idE" id="horse_idE" class="form-control select2">
+                                        <option value="1">Zubedi</option>
+                                        <option value="3">Mozeri</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="bname">Jockey:</label>
+                                      <select style="width: 90%; border-radius: 4px;" name="jockey_idE" id="jockey_idE" class="form-control select2">
+                                        <option value="1">peter1</option>
+                                        <option value="2">Test jockey</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="trainer_id">Trainer:</label>
+                                      <select style="width: 90%; border-radius: 4px;" name="trainer_idE" id="trainer_idE" class="form-control select2">
+                                        <option value="1">Mr. Jame</option>
+                                        <option value="3">Peter</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="fav_order">Fav Order:</label>
+                                      <input type="text" name="fav_orderE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav_orderE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="position">Position:</label>
+                                      <input type="number" name="positionE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="positionE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="tips">Tips:</label>
+                                      <input type="text" name="tipsE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tipsE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="tips_rating">Tips Rating:</label>
+                                      <input type="text" name="tips_ratingE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tips_ratingE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="high">High:</label>
+                                      <input type="text" name="highE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="highE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="low">Low:</label>
+                                      <input type="text" name="lowE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="lowE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="bsp">BSP:</label>
+                                      <input type="text" name="bspE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="bspE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="bpsp">BPSP:</label>
+                                      <input type="text" name="bpspE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="bpspE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="winner_high">Winner High:</label>
+                                      <input type="text" name="winner_highE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="winner_highE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="winner_sp">Winner SP:</label>
+                                      <input type="text" name="winner_spE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="winner_spE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="runner">Runner:</label>
+                                      <input type="text" name="runnerE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="runnerE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="placed">Placed:</label>
+                                      <input type="text" name="placedE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="placedE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="horse_place">Horse Place:</label>
+                                      <input type="text" name="horse_placeE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="horse_placeE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="b2l">B2L:</label>
+                                      <input type="text" name="b2lE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="b2lE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="sel_row_fav">Sel Row Fav:</label>
+                                      <input type="text" name="sel_row_favE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="sel_row_favE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="fav1_tips">FAV1 TIPS:</label>
+                                      <input type="text" name="fav1_tipsE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav1_tipsE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="com1">Com1:</label>
+                                      <input type="text" name="com1E" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com1E">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="fav1_tip1c">FAV1 TIP1c:</label>
+                                      <input type="text" name="fav1_tip1cE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav1_tip1cE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="fav2_tip">FAV2 Tip:</label>
+                                      <input type="text" name="fav2_tipE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav2_tipE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="com2">Com2:</label>
+                                      <input type="text" name="com2E" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com2E">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="fav2_tipc">FAV2 Tipc:</label>
+                                      <input type="text" name="fav2_tipcE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav2_tipcE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="fav3_tip">FAV3 TIP:</label>
+                                      <input type="text" name="fav3_tipE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav3_tipE">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="com3">Com3:</label>
+                                      <input type="text" name="com3E" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com3E">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group">
+                                      <label for="fav3_tipc">FAV3 TIPc:</label>
+                                      <input type="text" name="fav3_tipcE" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav3_tipcE">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-outline pull-right" data-dismiss="modal">Close</button>
+                                <input type="submit" name="Submit" value="Submit" id="Submit" class="btn btn-outline  pull-left">
+                              </div>
+                            </div>
 
-            </div>
-
-          </div>
-        </form>
-        <form action="https://sporttradingblog.com/databasehorseuk/PagesData/addRace" class="form-horizontal" method="post" accept-charset="utf-8">
-          <section class="col-lg-12 connectedSortable ui-sortable">
-            <div class="box">
-              <div class="box-body">
-
-                <div class="box-header ui-sortable-handle" style="background: rgb(255, 194, 79) none repeat scroll 0% 0%; color: rgb(47, 22, 22); cursor: move;">
-                  <h3 class="box-title">FAV Tipc Summary</h3>
-                </div>
-                <div class="box-body">
-                  <div class="modal modal-success fade" id="modal-success" style="display: none;">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span></button>
-                          <h4 class="modal-title">Add New Race</h4>
-                        </div>
-                        <div class="modal-body">
-                          <div class="col-md-12 col-xs-12">
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="dt_date">Date:</label>
-                                <input type="text" name="dt_date" value="" placeholder="Date" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="dt_date">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="dt_time">Time:</label>
-                                <input type="text" name="dt_time" value="" placeholder="Time" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="dt_time">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="tag_no">#:</label>
-                                <input type="text" name="tag_no" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tag_no">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="fname">Track:</label>
-                                <input type="text" name="track" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="track">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="distance">Distance:</label>
-                                <input type="text" name="distance" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="distance">
-
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="txtType">Type:</label>
-                                <input type="text" name="Type" value="" placeholder="Type" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="Type">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="code">Code:</label>
-                                <input type="text" name="code" value="" placeholder="Code" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="code">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="horse_id">Horse Name:</label>
-                                <select style="width: 90%; border-radius: 4px;" name="horse_id" id="horse_id" class="form-control select2">
-                                  <option value="1">Zubedi</option>
-                                  <option value="3">Mozeri</option>
-                                </select>
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="bname">Jockey:</label>
-                                <select style="width: 90%; border-radius: 4px;" name="jockey_id" id="jockey_id" class="form-control select2">
-                                  <option value="1">peter1</option>
-                                  <option value="2">Test jockey</option>
-                                </select>
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="trainer_id">Trainer:</label>
-                                <select style="width: 90%; border-radius: 4px;" name="trainer_id" id="trainer_id" class="form-control select2">
-                                  <option value="1">Mr. Jame</option>
-                                  <option value="3">Peter</option>
-                                </select>
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="fav_order">Fav Order:</label>
-                                <input type="text" name="fav_order" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav_order">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="position">Position:</label>
-                                <input type="text" name="position" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="position">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="tips">Tips:</label>
-                                <input type="text" name="tips" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tips">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="tips_rating">Tips Rating:</label>
-                                <input type="text" name="tips_rating" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tips_rating">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="high">High:</label>
-                                <input type="text" name="high" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="high">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="low">Low:</label>
-                                <input type="text" name="low" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="low">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="bsp">BSP:</label>
-                                <input type="text" name="bsp" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="bsp">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="bpsp">BPSP:</label>
-                                <input type="text" name="bpsp" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="bpsp">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="winner_high">Winner High:</label>
-                                <input type="text" name="winner_high" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="winner_high">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="winner_sp">Winner SP:</label>
-                                <input type="text" name="winner_sp" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="winner_sp">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="runner">Runner:</label>
-                                <input type="text" name="runner" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="runner">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="placed">Placed:</label>
-                                <input type="text" name="placed" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="placed">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="horse_place">Horse Place:</label>
-                                <input type="text" name="horse_place" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="horse_place">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="b2l">B2L:</label>
-                                <input type="text" name="b2l" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="b2l">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="sel_row_fav">Sel Row Fav:</label>
-                                <input type="text" name="sel_row_fav" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="sel_row_fav">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="fav1_tips">FAV1 TIPS:</label>
-                                <input type="text" name="fav1_tips" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav1_tips">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="com1">Com1:</label>
-                                <input type="text" name="com1" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com1">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="fav1_tip1c">FAV1 TIP1c:</label>
-                                <input type="text" name="fav1_tip1c" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav1_tip1c">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="fav2_tip">FAV2 Tip:</label>
-                                <input type="text" name="fav2_tip" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav2_tip">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="com2">Com2:</label>
-                                <input type="text" name="com2" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com2">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="fav2_tipc">FAV2 Tipc:</label>
-                                <input type="text" name="fav2_tipc" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav2_tipc">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="fav3_tip">FAV3 TIP:</label>
-                                <input type="text" name="fav3_tip" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav3_tip">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="com3">Com3:</label>
-                                <input type="text" name="com3" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com3">
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
-                              <div class="form-group">
-                                <label for="fav3_tipc">FAV3 TIPc:</label>
-                                <input type="text" name="fav3_tipc" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav3_tipc">
-                              </div>
-                            </div>
                           </div>
+
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-outline pull-right" data-dismiss="modal">Close</button>
-                          <input type="submit" name="Save" value="Save" class="btn btn-outline pull-left">
-                        </div>
-                      </div>
+                      </form>
+                      <form action="https://sporttradingblog.com/databasehorseuk/PagesData/addRace" class="form-horizontal" method="post" accept-charset="utf-8">
+                        <section class="col-lg-12 connectedSortable ui-sortable">
+                          <div class="box">
+                            <div class="box-body">
 
-                    </div>
+                              <div class="box-header ui-sortable-handle" style="background: rgb(255, 194, 79) none repeat scroll 0% 0%; color: rgb(47, 22, 22); cursor: move;">
+                                <h3 class="box-title">FAV Tipc Summary</h3>
+                              </div>
+                              <div class="box-body">
+                                <div class="modal modal-success fade" id="modal-success" style="display: none;">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">×</span></button>
+                                        <h4 class="modal-title">Add New Race</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <div class="col-md-12 col-xs-12">
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="dt_date">Date:</label>
+                                              <input type="text" name="dt_date" value="" placeholder="Date" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="dt_date">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="dt_time">Time:</label>
+                                              <input type="text" name="dt_time" value="" placeholder="Time" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="dt_time">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="tag_no">#:</label>
+                                              <input type="text" name="tag_no" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tag_no">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="fname">Track:</label>
+                                              <input type="text" name="track" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="track">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="distance">Distance:</label>
+                                              <input type="text" name="distance" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="distance">
 
-                  </div>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="txtType">Type:</label>
+                                              <input type="text" name="Type" value="" placeholder="Type" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="Type">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="code">Code:</label>
+                                              <input type="text" name="code" value="" placeholder="Code" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="code">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="horse_id">Horse Name:</label>
+                                              <select style="width: 90%; border-radius: 4px;" name="horse_id" id="horse_id" class="form-control select2">
+                                                <option value="1">Zubedi</option>
+                                                <option value="3">Mozeri</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="bname">Jockey:</label>
+                                              <select style="width: 90%; border-radius: 4px;" name="jockey_id" id="jockey_id" class="form-control select2">
+                                                <option value="1">peter1</option>
+                                                <option value="2">Test jockey</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="trainer_id">Trainer:</label>
+                                              <select style="width: 90%; border-radius: 4px;" name="trainer_id" id="trainer_id" class="form-control select2">
+                                                <option value="1">Mr. Jame</option>
+                                                <option value="3">Peter</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="fav_order">Fav Order:</label>
+                                              <input type="text" name="fav_order" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav_order">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="position">Position:</label>
+                                              <input type="text" name="position" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="position">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="tips">Tips:</label>
+                                              <input type="text" name="tips" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tips">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="tips_rating">Tips Rating:</label>
+                                              <input type="text" name="tips_rating" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="tips_rating">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="high">High:</label>
+                                              <input type="text" name="high" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="high">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="low">Low:</label>
+                                              <input type="text" name="low" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="low">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="bsp">BSP:</label>
+                                              <input type="text" name="bsp" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="bsp">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="bpsp">BPSP:</label>
+                                              <input type="text" name="bpsp" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="bpsp">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="winner_high">Winner High:</label>
+                                              <input type="text" name="winner_high" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="winner_high">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="winner_sp">Winner SP:</label>
+                                              <input type="text" name="winner_sp" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="winner_sp">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="runner">Runner:</label>
+                                              <input type="text" name="runner" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="runner">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="placed">Placed:</label>
+                                              <input type="text" name="placed" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="placed">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="horse_place">Horse Place:</label>
+                                              <input type="text" name="horse_place" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="horse_place">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="b2l">B2L:</label>
+                                              <input type="text" name="b2l" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="b2l">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="sel_row_fav">Sel Row Fav:</label>
+                                              <input type="text" name="sel_row_fav" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="sel_row_fav">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="fav1_tips">FAV1 TIPS:</label>
+                                              <input type="text" name="fav1_tips" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav1_tips">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="com1">Com1:</label>
+                                              <input type="text" name="com1" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com1">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="fav1_tip1c">FAV1 TIP1c:</label>
+                                              <input type="text" name="fav1_tip1c" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav1_tip1c">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="fav2_tip">FAV2 Tip:</label>
+                                              <input type="text" name="fav2_tip" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav2_tip">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="com2">Com2:</label>
+                                              <input type="text" name="com2" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com2">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="fav2_tipc">FAV2 Tipc:</label>
+                                              <input type="text" name="fav2_tipc" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav2_tipc">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="fav3_tip">FAV3 TIP:</label>
+                                              <input type="text" name="fav3_tip" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav3_tip">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="com3">Com3:</label>
+                                              <input type="text" name="com3" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="com3">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12" style="padding-left: 1px;">
+                                            <div class="form-group">
+                                              <label for="fav3_tipc">FAV3 TIPc:</label>
+                                              <input type="text" name="fav3_tipc" value="" placeholder="" class="form-control" style="width: 90%; border-radius: 4px;" required="TRUE" id="fav3_tipc">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline pull-right" data-dismiss="modal">Close</button>
+                                        <input type="submit" name="Save" value="Save" class="btn btn-outline pull-left">
+                                      </div>
+                                    </div>
 
-                  <div class="col-md-7 col-xs-12">
-                    <div class="col-md-3 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group" style="margin-right: 0px;">
-                        <label for="txtsumValfav1Desc">Betfair SP Order:</label>
-                        <input type="text" name="txtsumValfav1Desc" value="FAV" id="txtsumValfav1Desc" class="form-control" style="border-radius: 0px; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group" style="margin-right: 0px;">
-                        <label for="txtsumValfav1_tip1c">Back:</label>
-                        <input type="text" name="txtsumValfav1_tip1c" value="" id="txtsumValfav1_tip1c" placeholder="0.00" class="form-control" style="border-radius: 0px;background-color: #fda9d8;">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-7 col-xs-12">
-                    <div class="col-md-3 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group" style="margin-right: 0px;">
-                        <input type="text" name="txtsumValfav2Desc" value="2FAV" id="txtsumValfav2Desc" class="form-control" style="border-radius: 0px;">
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group" style="margin-right: 0px;">
-                        <input type="text" name="txtsumValfav2_tipc" value="" id="txtsumValfav2_tipc" placeholder="0.00" class="form-control" style="border-radius: 0px;background-color: #fda9d8;">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-7 col-xs-12">
-                    <div class="col-md-3 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group" style="margin-right: 0px;">
-                        <input type="text" name="txtsumValfav3Desc" value="3FAV" id="txtsumValfav3Desc" class="form-control" style="border-radius: 0px;">
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12" style="padding-left: 1px;">
-                      <div class="form-group" style="margin-right: 0px;">
-                        <input type="text" name="sumValfav3_tipc" value="" id="sumValfav3_tipc" placeholder="0.00" class="form-control" style="border-radius: 0px;background-color: #fda9d8;">
-                      </div>
-                    </div>
-                  </div>
+                                  </div>
 
-                </div>
-              </div>
+                                </div>
 
-            </div>
+                                <div class="col-md-7 col-xs-12">
+                                  <div class="col-md-3 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group" style="margin-right: 0px;">
+                                      <label for="txtsumValfav1Desc">Betfair SP Order:</label>
+                                      <input type="text" name="txtsumValfav1Desc" value="FAV" id="txtsumValfav1Desc" class="form-control" style="border-radius: 0px; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group" style="margin-right: 0px;">
+                                      <label for="txtsumValfav1_tip1c">Back:</label>
+                                      <input type="text" name="txtsumValfav1_tip1c" value="" id="txtsumValfav1_tip1c" placeholder="0.00" class="form-control" style="border-radius: 0px;background-color: #fda9d8;">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-7 col-xs-12">
+                                  <div class="col-md-3 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group" style="margin-right: 0px;">
+                                      <input type="text" name="txtsumValfav2Desc" value="2FAV" id="txtsumValfav2Desc" class="form-control" style="border-radius: 0px;">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group" style="margin-right: 0px;">
+                                      <input type="text" name="txtsumValfav2_tipc" value="" id="txtsumValfav2_tipc" placeholder="0.00" class="form-control" style="border-radius: 0px;background-color: #fda9d8;">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-7 col-xs-12">
+                                  <div class="col-md-3 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group" style="margin-right: 0px;">
+                                      <input type="text" name="txtsumValfav3Desc" value="3FAV" id="txtsumValfav3Desc" class="form-control" style="border-radius: 0px;">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 col-xs-12" style="padding-left: 1px;">
+                                    <div class="form-group" style="margin-right: 0px;">
+                                      <input type="text" name="sumValfav3_tipc" value="" id="sumValfav3_tipc" placeholder="0.00" class="form-control" style="border-radius: 0px;background-color: #fda9d8;">
+                                    </div>
+                                  </div>
+                                </div>
 
-          </section>
-        </form>
-      </div> -->
+                              </div>
+                            </div>
+
+                          </div>
+
+                        </section>
+                      </form>
+                  </div> -->
 
 
     </div>
@@ -1339,7 +1331,7 @@
 
           $('th:visible', table).each(function(index) {
             if ($(this).hasClass('skip-filter')) return;
-            var selectbox = $('<select class="form-control">');
+            var selectbox = $('<select>');
             var values = [];
             var opts = [];
             selectbox.append('<option value="--all--">' + $(this).text() + '</option>');
