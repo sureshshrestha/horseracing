@@ -1334,19 +1334,17 @@
             refreshFilters(this);
             return;
           }
-          var table = $('#favTable');
+          var table = $(this);
           var start = new Date();
 
           $('th:visible', table).each(function(index) {
             if ($(this).hasClass('skip-filter')) return;
-            var selectbox = $('<select class="form-control" style="width: auto;">');
+            var selectbox = $('<select class="form-control">');
             var values = [];
             var opts = [];
             selectbox.append('<option value="--all--">' + $(this).text() + '</option>');
-            // if ((index == null) || (index == 35) || (index == 36) || (index == 37)) {
-            // return;
-            // }
-            var col = $('tr:not(.skip-filter) td:nth-child(' + (index + 2) + ')', table).each(function() {
+
+            var col = $('tr:not(.skip-filter) td:nth-child(' + (index + 1) + ')', table).each(function() {
               var cellVal = options.valueCallback.apply(this);
               if (cellVal.length == 0) {
                 cellVal = '--empty--';
@@ -1355,7 +1353,6 @@
 
               if ($.inArray(cellVal, values) === -1) {
                 var cellText = options.textCallback.apply(this);
-                //console.log(cellText);
                 if (cellText.length == 0) {
                   cellText = options.emptyText;
                 }
@@ -1366,17 +1363,16 @@
                 });
               }
             });
-            /* if(opts.length < options.minOptions){
-               return;
-             }*/
+            if (opts.length < options.minOptions) {
+              return;
+            }
             if (options.sortOpt) {
               opts.sort(options.sortOptCallback);
             }
             $.each(opts, function() {
               $(selectbox).append('<option value="' + this.val + '">' + this.text + '</option>')
             });
-            $(selectbox).append('<option id="a2z" onclick="sortTable(0)">A to Z (Ascending)</option>')
-            $(selectbox).append('<option id="z2a" onclick="sortTable(1)">Z to A (Descending)</option>')
+
             $(this).wrapInner('<div style="display:none">');
             $(this).append(selectbox);
 
@@ -1387,7 +1383,7 @@
               var value = $(this).val();
 
               event.data.column.each(function() {
-                if ($(this).attr('ddtf-value') === value || value == '--all--' || value == 'A to Z (Ascending)' || value == 'Z to A (Descending)') {
+                if ($(this).attr('ddtf-value') === value || value == '--all--') {
                   $(this).removeClass('ddtf-filtered');
                 } else {
                   $(this).addClass('ddtf-filtered');
@@ -1398,9 +1394,8 @@
                 console.log('Search: ' + (changeStop.getTime() - changeStart.getTime()) + 'ms');
               }
               refreshFilters(table);
-              getSummaryTotals3();
-            });
 
+            });
             table.addClass('ddtf-processed');
             if ($.isFunction(options.afterBuild)) {
               options.afterBuild.apply(table);
@@ -1432,31 +1427,6 @@
             var stop = new Date();
             console.log('Build: ' + (stop.getTime() - start.getTime()) + 'ms');
           }
-
-          function getSummaryTotals3() {
-            var table = document.getElementById("favTable");
-            if (typeof(table) != 'undefined' && table != null) {
-
-              sumValfav1_tip1c = 0;
-              sumValfav2_tipc = 0;
-              sumValfav3_tipc = 0;
-
-              for (var i = 1; i < table.rows.length; i++) {
-                var row = table.rows[i];
-                if (row.style.display != 'none') {
-                  // sumVal = sumVal + parseFloat(row.cells[3].innerHTML);
-                  sumValfav1_tip1c = sumValfav1_tip1c + parseFloat(table.rows[i].cells[29].innerHTML);
-                  sumValfav2_tipc = sumValfav2_tipc + parseFloat(table.rows[i].cells[32].innerHTML);
-                  sumValfav3_tipc = sumValfav3_tipc + parseFloat(table.rows[i].cells[35].innerHTML);
-                }
-
-              }
-              $('#txtsumValfav1_tip1c').val(sumValfav1_tip1c);
-              $('#txtsumValfav2_tipc').val(sumValfav2_tipc);
-              $('#sumValfav3_tipc').val(sumValfav3_tipc);
-            }
-          }
-
         });
       };
 
